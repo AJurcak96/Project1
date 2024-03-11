@@ -1,0 +1,116 @@
+/* Body styling */
+body {
+    background-color: bisque;
+}
+
+/* Title styling */
+.title {
+    text-align: center;
+    font-size: 70px;
+    font-family: Salina, serif;
+    color: blueviolet;
+    margin-bottom: 100px;
+}
+
+/* Text under the title */
+.description {
+    text-align: center;
+    font-size: 40px;
+    font-family: Salina, serif;
+    color: blueviolet;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+/* container for the geometric figures */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+/* Ball figures */
+.ball {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* Ball figures when hover with mouse */
+.ball:hover {
+    background-color: rgb(104, 167, 248);
+    border: 5px solid black;
+}
+
+/* Square figures */
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+/* Square figures when hover with mouse */
+.square:hover {
+    background-color: rgb(187, 187, 87);
+    border: 5px solid black;
+}
+
+/* Name of creator on the bottom of the page */
+.credit {
+    color: blueviolet;
+    text-align: center;
+    padding: 30px 0 10px 0;
+    font-size: 20px;
+    font-family: Salina, serif;
+    position: relative;
+    margin-top: 160px;
+}
+
+
+/* Mobile phone size */
+@media (min-width: 480px) {
+    .credit {
+        margin-top: 50px;
+    }
+}
+
+/* Tablet size */
+@media (min-width: 768px) {
+    .credit {
+        margin-top: 60px;
+    }
+}
+
+/* laptops size */
+@media (min-width: 1024px) {
+    .credit {
+        margin-top: 70px;
+    }
+}
+
+/* Desktops size */
+@media (min-width: 1200px) {
+    .credit {
+        margin-top: 80px;
+    }
+}
+
+/* large screens */
+@media (min-width: 1201px) {
+    .credit {
+        margin-top: 90px;
+    }
+}
+
+/* XXXL screens */
+@media (min-width: 1440px) {
+    .credit {
+        margin-top: 480px;
+    }
+}
